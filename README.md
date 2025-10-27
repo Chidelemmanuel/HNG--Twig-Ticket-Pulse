@@ -1,4 +1,4 @@
-# 🎟️ TicketApp — Twig Version
+# Ticket-Pulse App — Twig Version
 A responsive, modern **Ticket Management Web App** built using **Twig templating** and **Vanilla JavaScript**, as part of the **Multi-Framework Ticket Web App** challenge.
 
 This is the **Twig implementation** — part of a 3-framework submission (React, Vue, Twig).
