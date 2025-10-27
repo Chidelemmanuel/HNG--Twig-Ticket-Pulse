@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}TicketPulse App{% endblock %}</title>
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-container">
+        <h1 class="logo">TicketPulse App</h1>
+        <nav class="nav-links" id="mainNav">
+          <a href="/">Home</a>
+          <a href="/dashboard">Dashboard</a>
+          <a href="/tickets">Tickets</a>
+          <a href="/auth/login">Login</a>
+        </nav>
+        <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      </div>
+    </header>
+
+    <main class="site-content">
+      {% block content %}{% endblock %}
+    </main>
+
+    <footer class="site-footer">
+
+      <hr>
+      <div class="container footer-content">
+      <h3> TicketPulse App </h3>
+      
+      <p> Built for a seamless ticketing experience. </p>
+      <p>© {{ "now"|date("Y") }} TicketPulse App. All rights reserved.</p>
+    
+      </div>
+    </footer>
+
+    <script src="/assets/app.js"></script>
+  </body>
+</html>
